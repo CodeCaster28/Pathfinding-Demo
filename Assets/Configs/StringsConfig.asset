@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f4e53b951939fc4daf939a9be3b6011, type: 3}
+  m_Name: StringsConfig
+  m_EditorClassIdentifier: 
+  spawnCharacterText: SPAWN CHARACTER
+  stopCharacterText: STOP CHARACTER
+  instructionsText: 'Choose Obstacles and click on a board to toggle between traversable
+    and obstacle tile. You can hold your mouse button for easier painting.
+
+
+    Choose
+    Start or Goal point and click on a board to place them.
+
+
+    When both start
+    and goal are placed, shortest path will be displayed between them.
+
+
+    Click
+    on Invert Grid to change all traversable tiles to obstacles and vice versa.
+
+
+    Click
+    on Spawn Character to create character that follows a path.
+
+
+    You can move
+    your camera with WSAD and rotate it by holding right mouse button and moving
+    mouse around. Use SHIFT for faster movement.'
+  infoStartAndGoalText: Place Start and Goal Points
+  infoStartText: Place Start Point
+  infoGoalText: Place Goal Point
+  infoNoValidPathText: There is no valid path available to connect start and goal
+    points
+  infoValidPathText: 'Path generated, cost: {0}'
